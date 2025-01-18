@@ -4,6 +4,7 @@ pipeline {
     environment {
         NODEJS_HOME = "/usr/bin"
         PATH = "${NODEJS_HOME}:${env.PATH}"
+         CI = "false"
     }
 
     stages {
